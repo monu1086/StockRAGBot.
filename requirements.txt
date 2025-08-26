@@ -1,0 +1,7 @@
+yfinance
+finnhub-python
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+torch
