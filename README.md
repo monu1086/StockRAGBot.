@@ -15,6 +15,15 @@ A personal Retrieval-Augmented Generation (RAG) chatbot for stock market queries
 - Dependencies: Listed in `requirements.txt` (install with `pip install -r requirements.txt`).
   - Key libs: yfinance, finnhub-python, langchain, transformers, torch, faiss-cpu, sentence-transformers, etc.
 - Finnhub API Key: Sign up at [finnhub.io](https://finnhub.io) for free tier (60 calls/min).
+```
+yfinance
+finnhub-python
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+torch
+```
 
 ## Setup
 1. Clone the repository:
@@ -31,16 +40,6 @@ A personal Retrieval-Augmented Generation (RAG) chatbot for stock market queries
    ```
    export FINNHUB_API_KEY='your_finnhub_api_key_here'
    ```
-## Requirements
-```
-yfinance
-finnhub-python
-langchain
-faiss-cpu
-sentence-transformers
-transformers
-torch
-```
 ## Usage Examples
 - Basic: "Current price of TCS.NS?"
 - News: "Latest updates for AMZN?"
