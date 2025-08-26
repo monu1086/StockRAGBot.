@@ -31,6 +31,16 @@ A personal Retrieval-Augmented Generation (RAG) chatbot for stock market queries
    ```
    export FINNHUB_API_KEY='your_finnhub_api_key_here'
    ```
+## Requirements
+```
+yfinance
+finnhub-python
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+torch
+```
 ## Usage Examples
 - Basic: "Current price of TCS.NS?"
 - News: "Latest updates for AMZN?"
